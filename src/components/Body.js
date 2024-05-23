@@ -20,6 +20,10 @@ const Body = () => {
         const res = listOfRestaurants.filter((rest) => rest.info.costForTwo.slice(1,4) <= 250);
         setListOfRestaurants(res);
     }}>Budget Friendly Restaurants </button>
+    <button className="refresh filtered-restaurants" onClick={()=>{
+        setListOfRestaurants(resList);
+    }
+    }>Refresh</button>
         </div>
         <div className="res-components">
           {
