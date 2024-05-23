@@ -51,3 +51,14 @@
     background-color: rgb(35, 33, 33);
     color: white;
 }
+.filter-btns {
+    margin: 15px;
+    
+}
+.filtered-restaurants{
+    margin: 10px;
+    border: 2px solid orange;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
